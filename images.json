@@ -39,4 +39,17 @@
     "source": "./aluka-2.jpg",
     "description": "بورتريه ثلاثي الأبعاد لألوكا زولديك."
   }
-]
+{
+    "id": 19,
+    "title": "غون — بورتريه",
+    "anime": "Hunter x Hunter",
+    "category": "action",
+    "tags": ["gon", "hunter x hunter", "portrait"],
+    "shape": "portrait",
+    "dimensions": "1080 × 1920",
+    "views": 0,
+    "date": 23,
+    "image": "./img/Aruka1.jpg",
+    "source": "./img/Aruka1.jpg",
+    "description": "وصف قصير للصورة."
+}
