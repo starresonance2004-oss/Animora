@@ -103,7 +103,7 @@
 </div>
 <div class="toast" id="toast"></div>
 <script>
-const wallpapers=[
+let wallpapers=[
  {id:1,title:"Gon & Killua — برق الصداقة",anime:"Hunter x Hunter",category:"action",tags:["gon","killua","hunter x hunter","lightning"],shape:"landscape",dimensions:"1920 × 1080",views:18240,date:16,image:"https://4kwallpapers.com/images/walls/thumbs_2t/27163.jpg",source:"https://4kwallpapers.com/anime/hunter-x-hunter-27163.html",description:"غون وكيلوا في خلفية مليئة بالطاقة والبرق."},
  {id:2,title:"ناروتو ضد ساسكي",anime:"Naruto Shippuden",category:"action",tags:["naruto","sasuke","shippuden","battle"],shape:"landscape",dimensions:"1920 × 1080",views:16780,date:15,image:"https://wallpapercrafter.com/desktop1/675896-Naruto-Shippuden-Uchiha-Sasuke-uchiha-sasuke-naruto.jpg",source:"https://wallpapercrafter.com/675896-naruto-shippuden-uchiha-sasuke-uchiha-sasuke-naruto.html",description:"مواجهة ناروتو وساسكي وسط البرق والطاقة المتضادة."},
  {id:3,title:"مونكي دي لوفي — ابتسامة القبطان",anime:"One Piece",category:"action",tags:["one piece","luffy","straw hat"],shape:"portrait",dimensions:"1920 × 1920",views:14920,date:14,image:"https://images8.alphacoders.com/120/thumb-1920-1208415.png",source:"https://wall.alphacoders.com/big.php?i=1208415",description:"لوفي بابتسامته المعروفة وقبعة القش."},
@@ -207,6 +207,22 @@ $("#randomBtn").onclick=randomWallpaper;$("#heroRandom").onclick=randomWallpaper
 $("#exploreBtn").onclick=()=>$("#gallery").scrollIntoView({behavior:"smooth"});$("#heroExplore").onclick=()=>$("#gallery").scrollIntoView({behavior:"smooth"});
 $("#totalStat").textContent=wallpapers.length+"+";
 render();
+
+// Load extra wallpapers from images.json. New images can be added there without editing index.html.
+async function loadExternalWallpapers(){
+ try{
+  const response=await fetch("./images.json",{cache:"no-store"});
+  if(!response.ok) throw new Error("images.json not found");
+  const extra=await response.json();
+  if(Array.isArray(extra)){
+   const known=new Set(wallpapers.map(w=>String(w.id)));
+   wallpapers.push(...extra.filter(w=>w && w.id!=null && w.image && !known.has(String(w.id))));
+   render();
+   $("#totalStat").textContent=wallpapers.length+"+";
+  }
+ }catch(error){console.info("ANIMORA: optional images.json could not be loaded.",error)}
+}
+loadExternalWallpapers();
 </script>
 </body>
 </html>

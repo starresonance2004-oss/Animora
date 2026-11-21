@@ -1,0 +1,42 @@
+[
+  {
+    "id": 17,
+    "title": "ألوكا زولديك — ألوان الأحلام",
+    "anime": "Hunter x Hunter",
+    "category": "fantasy",
+    "tags": [
+      "aluka",
+      "alluka",
+      "hunter x hunter",
+      "zoldyck",
+      "colorful"
+    ],
+    "shape": "portrait",
+    "dimensions": "864 × 1536",
+    "views": 0,
+    "date": 21,
+    "image": "./images/aluka-1.jpg",
+    "source": "./images/aluka-1.jpg",
+    "description": "ألوكا زولديك وسط ألوان مضيئة وفقاعات ملونة."
+  },
+  {
+    "id": 18,
+    "title": "ألوكا زولديك — بورتريه ثلاثي الأبعاد",
+    "anime": "Hunter x Hunter",
+    "category": "fantasy",
+    "tags": [
+      "aluka",
+      "alluka",
+      "hunter x hunter",
+      "zoldyck",
+      "3d"
+    ],
+    "shape": "portrait",
+    "dimensions": "1536 × 1536",
+    "views": 0,
+    "date": 22,
+    "image": "./images/aluka-2.jpg",
+    "source": "./images/aluka-2.jpg",
+    "description": "بورتريه ثلاثي الأبعاد لألوكا زولديك."
+  }
+]
