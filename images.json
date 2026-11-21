@@ -4,13 +4,7 @@
     "title": "ألوكا زولديك — ألوان الأحلام",
     "anime": "Hunter x Hunter",
     "category": "fantasy",
-    "tags": [
-      "aluka",
-      "alluka",
-      "hunter x hunter",
-      "zoldyck",
-      "colorful"
-    ],
+    "tags": ["aluka", "alluka", "hunter x hunter", "zoldyck", "colorful"],
     "shape": "portrait",
     "dimensions": "864 × 1536",
     "views": 0,
@@ -24,13 +18,7 @@
     "title": "ألوكا زولديك — بورتريه ثلاثي الأبعاد",
     "anime": "Hunter x Hunter",
     "category": "fantasy",
-    "tags": [
-      "aluka",
-      "alluka",
-      "hunter x hunter",
-      "zoldyck",
-      "3d"
-    ],
+    "tags": ["aluka", "alluka", "hunter x hunter", "zoldyck", "3d"],
     "shape": "portrait",
     "dimensions": "1536 × 1536",
     "views": 0,
@@ -38,18 +26,61 @@
     "image": "./aluka-2.jpg",
     "source": "./aluka-2.jpg",
     "description": "بورتريه ثلاثي الأبعاد لألوكا زولديك."
-  }
-{
+  },
+  {
     "id": 19,
-    "title": "غون — بورتريه",
+    "title": "ألوكا زولديك — 1",
     "anime": "Hunter x Hunter",
-    "category": "action",
-    "tags": ["gon", "hunter x hunter", "portrait"],
+    "category": "fantasy",
+    "tags": ["aluka", "alluka", "hunter x hunter", "zoldyck"],
     "shape": "portrait",
-    "dimensions": "1080 × 1920",
+    "dimensions": "—",
     "views": 0,
     "date": 23,
-    "image": ".Aruka1.jpg",
-    "source": ".Aruka1.jpg",
-    "description": "وصف قصير للصورة."
-}
+    "image": "./Aruka1.jpg",
+    "source": "./Aruka1.jpg",
+    "description": "خلفية ألوكا زولديك."
+  },
+  {
+    "id": 20,
+    "title": "ألوكا زولديك — 2",
+    "anime": "Hunter x Hunter",
+    "category": "fantasy",
+    "tags": ["aluka", "alluka", "hunter x hunter", "zoldyck"],
+    "shape": "portrait",
+    "dimensions": "—",
+    "views": 0,
+    "date": 24,
+    "image": "./Aruka2.jpg",
+    "source": "./Aruka2.jpg",
+    "description": "خلفية ألوكا زولديك."
+  },
+  {
+    "id": 21,
+    "title": "ألوكا زولديك — 3",
+    "anime": "Hunter x Hunter",
+    "category": "fantasy",
+    "tags": ["aluka", "alluka", "hunter x hunter", "zoldyck"],
+    "shape": "portrait",
+    "dimensions": "—",
+    "views": 0,
+    "date": 25,
+    "image": "./Aruka3.jpg",
+    "source": "./Aruka3.jpg",
+    "description": "خلفية ألوكا زولديك."
+  },
+  {
+    "id": 22,
+    "title": "ألوكا زولديك — 4",
+    "anime": "Hunter x Hunter",
+    "category": "fantasy",
+    "tags": ["aluka", "alluka", "hunter x hunter", "zoldyck"],
+    "shape": "portrait",
+    "dimensions": "—",
+    "views": 0,
+    "date": 26,
+    "image": "./Aruka4.jpg",
+    "source": "./Aruka4.jpg",
+    "description": "خلفية ألوكا زولديك."
+  }
+]
